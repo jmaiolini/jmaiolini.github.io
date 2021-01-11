@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: JMPortfolio
 email:
 description: A simple and awesome blog theme powered by jekyll.
 url: # the base hostname & protocol for your site
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Europe/Rome
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,25 +33,26 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Jacopo Maiolini
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "Robotic Software Engineer"
+  bio: "A simple and awesome blog theme powered by jekyll.A simple and awesome blog theme powered by jekyll.A simple and awesome blog theme powered by jekyll.A simple and awesome blog theme powered by jekyll.A simple and awesome blog theme powered by jekyll.A simple and awesome blog theme powered by jekyll."
+  email: jacopo.maiolini@gmail.com
   disqus-shortname:
-  twitter: abc
-  facebook: bbc
+  twitter: 
+  facebook: 
   google:
-    plus: 3
+    plus: 
     analytics:
     verify:
-    ad-client: 22
+    ad-client:
     ad-slot:
   bing-verify:
-  github: 5
-  gitlab: 7
+  github: jmaiolini
+  bitbucket: jmaiolini
+  gitlab: 
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: jacopo-maiolini
   skype: #username
   xing: #username
   instagram: #username
@@ -69,3 +70,6 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
+
+#keep old pages but exclude them from being served
+exclude: [old_pages]
