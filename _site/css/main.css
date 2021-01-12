@@ -594,17 +594,17 @@ pre code span { word-break: break-all; }
 .cover-card .author_bio { text-align: justify; font-size: 90%; display: block; }
 @media only screen and (min-width: 992px) { .cover-card { text-align: right; margin: 0 auto; padding: 0 0px 80px; } }
 
-.social-links { /*  margin-top: 0.5em;*/ margin-top: 50px; }
+.social-links { /*  margin-top: 0.5em;*/ margin-top: 30px; }
 .social-links ul { margin: 0; padding: 0; }
 .social-links ul li { list-style: none; display: inline-block; margin-left: 1em; }
 .social-links ul li a.social-link-item { /*        color: $secondary;*/ color: #42b983; }
 .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus { /*          color: lighten($secondary, 14%);*/ color: #75cea5; }
 
-.nav-list { /*whole list*/ margin-top: 40px; text-align: center; padding: 0; list-style: none; }
+.nav-list { /*whole list*/ position: absolute; bottom: 0; left: 80px; /*TODO: once I decided the page titles I must set this value correctly*/ /*  margin-top: 20px;*/ /*  text-align: center;*/ padding: 0; list-style: none; }
 .nav-list .nav-item { /*single item*/ display: inline-block; *display: inline; zoom: 1; }
 .nav-list .nav-item:after { content: '-'; }
 .nav-list .nav-item:last-child:after { content: ''; }
-.nav-list .nav-item a { margin-top: 1em; /*      text-transform: lowercase;*/ font-size: 85%; /*      color: $secondary;*/ color: #f83e4b; }
+.nav-list .nav-item a { margin-top: 1em; /*      text-transform: lowercase;*/ font-size: 95%; /*85%;*/ /*      color: $secondary;*/ color: #f83e4b; }
 .nav-list .nav-item a:hover, .nav-list .nav-item a:focus { color: #fa838b; }
 
 ul.tag-cloud { padding: 2em 0 3em; margin: 0; overflow: hidden; list-style: none; }
@@ -614,8 +614,8 @@ ul.tag-cloud li a.post-tag { border-radius: 0.2em; }
 .tag-list .tag-group { margin-bottom: 2em; }
 .tag-list .tag-group .tag-group-title { color: #F5A623; text-transform: capitalize; }
 .tag-list .tag-group .tag-item { padding-left: 1em; margin-bottom: .5em; }
-.tag-list .tag-group .tag-item a { color: rgba(0, 0, 0, 0.87); }
-.tag-list .tag-group .tag-item a:hover, .tag-list .tag-group .tag-item a:focus { color: rgba(61, 61, 61, 0.87); }
+.tag-list .tag-group .tag-item a { /*color: $text-color;*/ color: rgba(0, 0, 0, 0.87); }
+.tag-list .tag-group .tag-item a:hover, .tag-list .tag-group .tag-item a:focus { /*color: lighten($text-color, 24%);*/ color: rgba(61, 61, 61, 0.87); }
 
 .cat-list .cat-group { margin-bottom: 2em; }
 .cat-list .cat-group .cat-group-title { color: #F5A623; text-transform: capitalize; }
@@ -663,7 +663,7 @@ a.read-more { padding: 5px 8px; }
 #post h3 { margin: 1.75em 0 1.2em; position: relative; }
 
 #page { padding-bottom: 50px; min-height: 70vh; }
-#page .page-header { margin: 0 auto 50px; }
+#page .page-header { margin: 0 auto 50px; color: #42b983; /*good */ }
 
 .post-navigation { background-color: #f6f6f6; -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
 

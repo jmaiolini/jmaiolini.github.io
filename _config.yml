@@ -18,7 +18,7 @@ timezone:          Europe/Rome
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:         
 
 kramdown:
   auto_ids: true
@@ -72,4 +72,4 @@ owner:
   telegram: #username
 
 #keep old pages but exclude them from being served
-exclude: [old_pages]
+exclude: [old_pages, old_posts]
