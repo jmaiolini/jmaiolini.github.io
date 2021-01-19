@@ -614,8 +614,8 @@ ul.tag-cloud li a.post-tag { border-radius: 0.2em; }
 .tag-list .tag-group { margin-bottom: 2em; }
 .tag-list .tag-group .tag-group-title { color: #F5A623; text-transform: capitalize; }
 .tag-list .tag-group .tag-item { padding-left: 1em; margin-bottom: .5em; }
-.tag-list .tag-group .tag-item a { /*color: $text-color;*/ color: rgba(0, 0, 0, 0.87); }
-.tag-list .tag-group .tag-item a:hover, .tag-list .tag-group .tag-item a:focus { /*color: lighten($text-color, 24%);*/ color: rgba(61, 61, 61, 0.87); }
+.tag-list .tag-group .tag-item a { /*color: $text-color;*/ color: #F5A623; }
+.tag-list .tag-group .tag-item a:hover, .tag-list .tag-group .tag-item a:focus { /*color: lighten($text-color, 24%);*/ /*color: lighten($warning, 24%);*/ }
 
 .cat-list .cat-group { margin-bottom: 2em; }
 .cat-list .cat-group .cat-group-title { color: #F5A623; text-transform: capitalize; }

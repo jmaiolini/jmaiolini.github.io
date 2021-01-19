@@ -26,11 +26,11 @@ ul.tag-cloud {
       margin-bottom: .5em;
       a {
         /*color: $text-color;*/
-		color: $text-color;        
+		color: $warning;        
 		&:hover,
         &:focus {
           /*color: lighten($text-color, 24%);*/
-color: lighten($text-color, 24%);        
+          /*color: lighten($warning, 24%);*/        
 		}
       }
     }
